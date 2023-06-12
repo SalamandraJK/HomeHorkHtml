@@ -3,10 +3,50 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 65px;
+    font-size: 50px;
     color: #5d0808;
+    margin: 20px;
 }
-h2{
+.titleFive{
+    text-align: left;
+    font-size: 30px;
+    color: #db1010;
+    margin: 1;
+    border-bottom: 2px solid #3d0202;
+}
+.titleFor{
+    text-align: left;
+    font-size: 30px;
+    color: #db1010;
+    margin: 1;
+    border-bottom: 2px solid #3d0202;
+}
+.titleThree{
+    text-align: left;
+    font-size: 30px;
+    color: #db1010;
+    margin: 1;
+    border-bottom: 2px solid #3d0202;
+}
+.titleTwo{
+    text-align: left;
+    font-size: 30px;
+    color: #db1010;
+    margin: 1;
+    border-bottom: 2px solid #3d0202;
+}
+.titleOne{
+    text-align: left;
+    font-size: 30px;
+    color: #db1010;
+    margin: 1;
+    border-bottom: 2px solid #3d0202;
+}
+.box1{
+    border-bottom: 2px solid #3d0202;
+    padding: 20px;
+}
+/* h2{
     text-align: left;
     font-size: 45px;
     color: #db1010;
@@ -30,8 +70,6 @@ h6{
     text-align: left;
     font-size: 45px;
     color: #db1010;
-}
-p{
-    color: cornflowerblue;
-}
+} */
+
 

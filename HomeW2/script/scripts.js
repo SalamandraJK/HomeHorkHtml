@@ -1,16 +1,14 @@
 function funkName()
 {
-let name = prompt('Как вас зовут?', 'Имя');
+let name = prompt('What is your name?', 'Unknown');
 return name
 }
-alert(`Ну'с, здравствуйте, ${funkName()}`);
+alert(`Well, hello, ${funkName()}`);
 
-let element = document.getElementById('Num5');
-console.log(element);
+function chanchedcolor(){
+    alert('Oh, cool choice!')
+}
 
-let first_elem = document.getElementById('Null');
-console.log(first_elem);
-
-let push = document.getElementById('btn')
-console.log(push);
-push.addEventListener('click', chanchedcolor);
+let btn = document.getElementById('btn1')
+console.log(btn);
+btn.addEventListener('click', chanchedcolor);

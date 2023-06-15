@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My_Anime_list</title>
     <link rel="stylesheet" href="./style.css">
+    <script>
+        let age = prompt('Возраст?');
+        let message = (age < 13) ? 'Позови лучше родителей, перед тем, как продолжить.' :
+        (age < 18) ? 'Ну, что же, давай знакомиться!' :
+        (age < 30) ? 'Охохо, чувствую ценителя!' :
+        (age < 50) ? 'Ну что сказать, никогда не поздно, познать прекрасное!' :
+        (age < 90) ? 'Вы человек с широким кругозором. Очень рад, вы с нами!' :
+            'Какой необычный возраст!';
+            alert( message );
+    </script>
+    <script src="./script/scripts.js"></script>
 </head>
 <body>
     <selction>
@@ -14,25 +25,24 @@
         <div class="box2">
             <h2 class="titleFive" id="Num5">Number 5 - One Punch Man</h2>
             <img src="./picture/OnePunchMan.jpg" width = '720'height ='480'>
-            <button id="btn">Твой выбор</button>
+            <button id="btn1">Your choice</button>
             
             <h3 class="titleFor">Number 4 - Violet Evergarden</h3>
             <img src="./picture/Violet Evergarden.jpeg" width = '720'height ='480'>
-            <button>Твой выбор</button>
+            <button id="btn1">Your choice</button>
 
             <h4 class="titleThree">Number 3 - Attack Of The Titans</h4>
             <img src="./picture/Attack Of The Titans.jpg" width = '720'height ='480'>
-            <button>Твой выбор</button>
+            <button id="btn1">Your choice</button>
 
             <h5 class="titleTwo">Number 2 - Bakuman</h5>
             <img src="./picture/Bakuman.JPEG" width = '720'height ='480'>
-            <button>Твой выбор</button>
+            <button id="btn1">Your choice</button>
         
             <h6 class="titleOne">Number 1 - Fullmetal Alchemist: Brotherhood</h6>
             <img src="./picture/Fullmetal Alchemist.jpg" width = '720'height ='440'>
-            <button>Твой выбор</button>
+            <button id="btn1">Your choice</button>
         </div>
     </selction>
-    <script src="./script/scripts.js"></script>
 </body>
 </html>
